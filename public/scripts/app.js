@@ -52,7 +52,7 @@ function render () {
 
   // append html to the view
   $booksList.append(booksHtml);
-};
+}
 
 function handleSuccess(json) {
   allBooks = json;
@@ -92,3 +92,7 @@ function deleteBookSuccess(json) {
 function deleteBookError() {
   console.log('deletebook error!');
 }
+Add Comment Collapse
+
+
+
